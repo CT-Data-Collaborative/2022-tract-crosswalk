@@ -1,20 +1,32 @@
-# 2022-tract-crosswalk
-Census tract crosswalk to town, county, county equivalent, zipcode, and PUMA (2010)
+# 2022 Tract Crosswalk
+#### Census tract crosswalk to town, county, county equivalent, ZIP code, and PUMA (2010)
 
-The data/2022tractcrosswalk.csv file contains a crosswalk between Connecticut census tracts, towns, counties, country equivelents, ZIP Codes, and PUMAS (2010) in CT.
-
-Note about FIPS Codes and County Equivalents
-
-In 2022, the Census Bureau adopted county equivalents- Connecticut's nine planning regions- as new county-level geographies for Connecticut for statistical purposes, replacing Connecticut's eight counties for Census Bureau data products. The county equivalents have new FIPS codes. 
-
-Census Bureau data and publications will transition to using the county equivalents instead of counties throughout 2023-2024. To help ease this transition, this crosswalk includes FIPS codes for both the counties and the new county equivalents. Tracts and towns therefore have two fips each:
+The data/2022tractcrosswalk.csv file contains a crosswalk between 879 Connecticut census tracts and towns, counties, country equivalents, ZIP codes, and 2010 PUMAS in CT.
 
 
+#### Note about FIPS Codes and County Equivalents
+
+In 2022, the Census Bureau adopted county equivalents- Connecticut's nine planning regions- as new county-level geographies for Connecticut for statistical purposes, replacing Connecticut's eight counties in Census Bureau data products. The county equivalents have new FIPS codes. 
+
+Census Bureau data and publications will transition to using the county equivalents instead of counties throughout 2023-2024. To help ease this transition, this crosswalk includes FIPS codes for both the counties and the new county equivalents. 
+
+Tracts and towns therefore have two FIPS identifiers. The tract and town boundaries did not change.
+- tract_fips_20 and town_fips_20 include the FIPS code from its county (county_fips_20)
+- tract_fips_22 and town_fips_22 include the FIPS code from its county equivalent/planning region (ce_fips_22)
 
 
-By 2024, all Census Bureau operations and publications, both internal and external, will use the nine new county-equivalent boundaries, names, and codes, except for 2020 Decennial Census data publications and other datasets referencing the eight legacy counties as published before June 1, 2022.
+#### To prevent Excel from transforming FIPS codes and zip codes to numbers automatically (which leads to missing leading 0s), do the following:
+1.	Open Excel, New workbook
+2.	Go to File > Import > CSV file
+3.	Choose file, and select "text" as type of tract_fips_2020, tract_fips_2022, town_fips_2020, town_fips_2022, county_fips_2020, ce_fips_2022 and zipcode columns.
 
-Note that some tracts cross zip boundaries, therefore this crosswalk is approximate. 
+Note that some tracts cross zip boundaries and some tracts cross town boundaries, this is usually the case for very small towns. Therefore, this crosswalk is approximate.
 
-The 2020 crosswalk contains 879 tracts and the 2010 crosswalk contains 829 tracts.
+
+### Sources
+
+	•	2020 TIGER/Line Shapefiles: https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2020.html
+	•	2022 TIGER/Line Shapefiles: https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2020.html
+	•	County subdivisions (which are towns for Connecticut) on TIGER: https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2019&layergroup=County+Subdivisions
+	•	Connecticut zipcode boundaries: https://data.ct.gov/Government/Zip-Code-Tabulation-Area-Boundaries/n7kw-xx5z
 
