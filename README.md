@@ -22,11 +22,12 @@ Tracts and towns therefore have two FIPS identifiers. The tract and town boundar
 
 Note that some tracts cross zip boundaries and some tracts cross town boundaries, this is usually the case for very small towns. Therefore, this crosswalk is approximate.
 
+Note that tracts that contained only water and were not within municipal boundaries are excluded from this crosswalk. The blocks are in 2020 tracts 09001990000, 09007990100, 09009990000, and 09011990100.
 
 ### Sources
 
 * 2020 TIGER/Line Shapefiles: https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2020.html
-* 2022 TIGER/Line Shapefiles: https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2020.html
+* 2022 TIGER/Line Shapefiles: https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2022.html
 * County subdivisions (which are towns for Connecticut) on TIGER: https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2019&layergroup=County+Subdivisions
 * Connecticut zipcode boundaries: https://data.ct.gov/Government/Zip-Code-Tabulation-Area-Boundaries/n7kw-xx5z
 
