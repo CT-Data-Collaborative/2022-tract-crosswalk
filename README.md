@@ -1,7 +1,7 @@
 # 2022 Tract Crosswalk
 #### Census tract crosswalk to town, county, county equivalent, ZIP code, and PUMA (2010)
 
-The 2022tractcrosswalk.csv file contains a crosswalk between 879 Connecticut census tracts and towns, counties, country equivalents, ZIP codes, and 2010 PUMAS in CT.
+The 2022tractcrosswalk.csv file contains a crosswalk between 879 Connecticut census tracts and towns, counties, country equivalents, ZIP codes, and 2020 PUMAS in CT.
 
 
 #### Note about FIPS Codes and County Equivalents
