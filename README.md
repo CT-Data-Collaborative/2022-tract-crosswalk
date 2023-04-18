@@ -1,7 +1,7 @@
 # 2022 Tract Crosswalk
 #### Census tract crosswalk to town, county, county equivalent, ZIP code, and PUMA (2010)
 
-The 2022tractcrosswalk.csv file contains a crosswalk between 879 Connecticut census tracts and towns, counties, country equivalents, ZIP codes, and 2020 PUMAS in CT.
+The 2022tractcrosswalk.csv file contains a crosswalk between 879 Connecticut census tracts and towns, counties, country equivalents, ZIP codes, 2020 PUMAS, and secondary school districts in CT.
 
 
 #### Note about FIPS Codes and County Equivalents
@@ -30,4 +30,5 @@ Note that tracts that contained only water and were not within municipal boundar
 * 2022 TIGER/Line Shapefiles: https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2022.html
 * County subdivisions (which are towns for Connecticut) on TIGER: https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2019&layergroup=County+Subdivisions
 * Connecticut zipcode boundaries: https://data.ct.gov/Government/Zip-Code-Tabulation-Area-Boundaries/n7kw-xx5z
+* Secondary school district boundaries: http://magic.lib.uconn.edu/connecticut_data.html#education [Connecticut Secondary School Districts (rev. 5/13/2010)]
 
