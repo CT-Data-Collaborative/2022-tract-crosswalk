@@ -22,7 +22,7 @@ Tracts and towns therefore have two FIPS identifiers. The tract and town boundar
 
 Note that some tracts cross zip boundaries and some tracts cross town boundaries, this is usually the case for very small towns. Therefore, this crosswalk is approximate.
 
-Note that tracts that contained only water and were not within municipal boundaries are excluded from this crosswalk. The blocks are in 2020 tracts 09001990000, 09007990100, 09009990000, and 09011990100.
+Note that tracts that contained only water and were not within municipal boundaries are excluded from this crosswalk. These are 2020 tracts 09001990000, 09007990100, 09009990000, and 09011990100.
 
 ### Sources
 
