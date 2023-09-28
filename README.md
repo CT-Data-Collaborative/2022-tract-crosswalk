@@ -29,6 +29,6 @@ Note that tracts that contained only water and were not within municipal boundar
 * 2020 TIGER/Line Shapefiles: https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2020.html
 * 2022 TIGER/Line Shapefiles: https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2022.html
 * County subdivisions (which are towns for Connecticut) on TIGER: https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2019&layergroup=County+Subdivisions
-* Connecticut zipcode boundaries: https://data.ct.gov/Government/Zip-Code-Tabulation-Area-Boundaries/n7kw-xx5z
+* Connecticut zipcode boundaries: https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2020&layergroup=ZIP+Code+Tabulation+Areas
 * Secondary school district boundaries: http://magic.lib.uconn.edu/connecticut_data.html#education [Connecticut Secondary School Districts (rev. 5/13/2010)]
 
